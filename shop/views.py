@@ -76,3 +76,4 @@ class ProductUpdate(generics.CreateAPIView):
 
 class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = ProfileSerializer
+
